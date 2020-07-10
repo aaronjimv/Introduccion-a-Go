@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 /*
-	When we call a function that takes an argument, that argument is copied to the func‐
-	tion:
+	When we call a function that takes an argument, that argument is 
+	copied to the function:
 		func zero(x int) {
 			x = 0
 		}

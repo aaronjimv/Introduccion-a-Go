@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("test")
+	file, err := os.Open("./test")
 	if err != nil {
 		// handle the error here
 		return

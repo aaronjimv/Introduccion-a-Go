@@ -9,7 +9,7 @@ func main() {
 		return x + y
 	}
 	fmt.Println(add(1,1))
-	// add es una variable focal de tipo func(int, int)
+	// add es una variable local de tipo func(int, int)
 
 	//cuando se crean una funcion local como esta, 
 	//tambien tiene acceso a las variables locales

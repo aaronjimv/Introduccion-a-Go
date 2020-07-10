@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// el metoso: String () string 
+// el metodo: String () string 
 // es como el ToString() en python
 
 type  Persona struct{
