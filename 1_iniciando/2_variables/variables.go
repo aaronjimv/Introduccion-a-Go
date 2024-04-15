@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	//variables
+	// en go todas las variables se tienen que usar.
 
 	//var nombre_de_la_variables tipo_de_dato
 	var x int
@@ -14,10 +15,12 @@ func main() {
 
 	fmt.Println(x,y)
 
-	nombre := "aaron"
-	// con el operador := no se puede reaccinar el valor
-	//nombre := "sebastian"
-	nombre = "aaron j"
+	nombre := "Mario"
+	fmt.Println(nombre)
+
+	// con el operador := no se puede reasignar el valor
+	//nombre := "Luigi"
+	nombre = "Luigi"
 
 	fmt.Println(nombre)
 
