@@ -1,4 +1,4 @@
-package main 
+package main
 
 import "fmt"
 
@@ -24,15 +24,13 @@ func factorial(x uint) uint {
 
 	3. Return 2 * 1.
 
-	Closure y la recursividad son poderosas técnicas de programación 
-	que forman la base de un paradigma conocido como programación funcional. 
-	La mayoría de las personas encontrarán que la programación funcional es más 
-	difícil de entender que un enfoque basado en bucles for, if, 
+	Closure y la recursividad son poderosas técnicas de programación
+	que forman la base de un paradigma conocido como programación funcional.
+	La mayoría de las personas encontrarán que la programación funcional es más
+	difícil de entender que un enfoque basado en bucles for, if,
 	declaraciones, variables y funciones simples.
 */
 
 func main() {
 	fmt.Println(factorial(5))
 }
-
-// al fin entendi al recurcividad nojoda!!!!!!!!!!!!
