@@ -1,10 +1,10 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
-	
-	for i:=0;i<10;i++{
+
+	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
 
@@ -12,17 +12,17 @@ func main() {
 
 	var condicion int
 
-	for true{
+	for true {
 		fmt.Println("bienvenido al menu para continuar oprima 1 para salir oprima 2")
 		fmt.Scanf("%d\n", &condicion)
 
 		if condicion == 1 {
 			fmt.Println("continuando...")
-		}else if condicion == 2{
+		} else if condicion == 2 {
 			break
-		}else{
+		} else {
 			fmt.Println("OPCION INVALIDA")
-		}		
+		}
 	}
 
 }
