@@ -7,7 +7,7 @@ func main() {
 	PrintList(1, 2, 3, 4)
 }
 
-// el `...any` le permite a la funcion recibir cualquir tipo de parametro
+// el tipo de dato `any` le permite a la funcion recibir cualquir tipo de parametro
 func PrintList(list ...any) {
 	for _, item := range list {
 		fmt.Println(item)
