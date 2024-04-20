@@ -24,7 +24,7 @@ var nombre string
 
 func init() {
 	Hola = "hola ;3"
-	nombre = "no me pueden exportar porque empieso en minuscula"
+	nombre = "no me pueden exportar porque empiezo en minuscula"
 }
 
 func HolaMundo() string {
