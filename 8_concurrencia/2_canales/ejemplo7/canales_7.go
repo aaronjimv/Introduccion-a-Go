@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 )
 
 type HomePageSize struct {
-	URL string
+	URL  string
 	Size int
 }
 
 func main() {
 	urls := []string{
-	//	"http://www.apple.com",
+		//	"http://www.apple.com",
 		"http://www.amazon.com",
 		"http://www.google.com",
 		"http://www.microsoft.com",
@@ -33,14 +33,14 @@ func main() {
 
 			defer res.Body.Close()
 
-			bs, err := ioutil.ReadAll(res.Body)
-			
+			bs, err := io.ReadAll(res.Body)
+
 			if err != nil {
 				panic(err)
 			}
 
 			results <- HomePageSize{
-				URL: url,
+				URL:  url,
 				Size: len(bs),
 			}
 		}(url)
