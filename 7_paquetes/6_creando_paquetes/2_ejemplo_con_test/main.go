@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
-import m "./math"
+import (
+	"fmt"
+
+	m "main/math"
+)
 
 func main() {
-	xs := []float64{1,2,3,4}
-	
+	xs := []float64{1, 2, 3, 4}
+
 	avg := m.Average(xs)
 	fmt.Println(avg)
 
